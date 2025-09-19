@@ -23,7 +23,7 @@ local function addMoney(obj)
 		-- local reference to the player's leaderstats
 		local ranking = player.leaderstats
 		-- local reference to the player's money
-		-- if ranking == true and ranking:FindFirstChild("Money") then money == ranking.Money
+		-- if ranking == true and ranking:FindFirstChild("Money") == true then money == ranking.Money
 		local money = ranking and ranking:FindFirstChild("Money")
 		
 		-- we'll also need to access the data store again

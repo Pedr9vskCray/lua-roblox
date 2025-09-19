@@ -14,10 +14,10 @@ local function addMoney(obj)
 	if human then
 		-- so we use the character to get the right player in the players service
 		local player = players:GetPlayerFromCharacter(character)
-		-- local reference to the player's leaderstats
+		-- local reference to the player's leaderstats (ranking folder)
 		local ranking = player.leaderstats
 		-- local reference to the player's money
-		-- if ranking == true and ranking:FindFirstChild("Money") then money == ranking.Money
+		-- if ranking == true and ranking:FindFirstChild("Money") == true then money == ranking.Money
 		local money = ranking and ranking:FindFirstChild("Money")
 		-- if ranking == true then money.Value += 1
 		if ranking then

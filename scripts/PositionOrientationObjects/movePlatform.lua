@@ -12,4 +12,3 @@ local function movePos(obj)
 end
 
 button.Touched:Connect(movePos)
-

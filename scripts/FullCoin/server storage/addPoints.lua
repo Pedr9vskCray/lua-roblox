@@ -48,10 +48,10 @@ local function addPoints(obj)
 				points = 10
 			end
 			
-			-- updating the datastore with the new points value
+			-- updating the datastore with the new points value (DATASTORE)
 			data:SetAsync(PlayerUserID, points)
 			
-			-- if everything is correct, adds 1 to the player's money
+			-- if everything is correct, adds 1 to the player's money (LEADERBOARD)
 			if ranking then
 				money.Value = money.Value + 10
 			end

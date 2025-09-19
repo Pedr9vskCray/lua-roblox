@@ -28,7 +28,7 @@ local function rankingConfig(player)
 	money.Parent = ranking
 end
 
--- conecct the function to the player added event
+-- connect the function to the player added event
 players.PlayerAdded:Connect(rankingConfig)
 
 

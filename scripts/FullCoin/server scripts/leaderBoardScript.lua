@@ -21,6 +21,8 @@ local function rankingConfig(player)
 	
 	-- load data
 	local points = data:GetAsync(PlayerUserID) -- key is the player id
+
+	-- key/value -> PlayerUserID/points
 	
 	-- configure money value
 	money.Name = "CatMoney"
